@@ -6,7 +6,7 @@ import axios from 'axios';
  * Automatically attaches JWT token from localStorage.
  */
 const API = axios.create({
-  baseURL: 'http://localhost:8080/api',
+  baseURL: 'https://agrimarket-backend.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
